@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 import sys
 import yaml
 import os
@@ -272,7 +272,7 @@ private:
 }}
 #endif // {GAME}GAME_H'''
   
-    gui_template = '''#!/usr/bin/python3
+    gui_template = '''#!/usr/bin/env python3
 import os
 import sys
 import yaml
